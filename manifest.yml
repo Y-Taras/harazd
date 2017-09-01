@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: myReactApp
+  buildpack: sdk-for-nodejs
+  host: myReactApp
+  command: node server.js
+  disk_quota: 1024M
