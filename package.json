@@ -1,6 +1,6 @@
 {
   "name": "reactivePinobeton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SSR react static website",
   "main": "server.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "watch": "node_modules/.bin/webpack --watch"
   },
   "engines": {
-    "node": "6.9.4"
+    "node": "8.x",
+    "yarn": "1.x"
   },
   "repository": {
     "type": "git",
